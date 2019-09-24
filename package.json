@@ -1,0 +1,12 @@
+{
+  "name": "fronteers-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp -r src dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
