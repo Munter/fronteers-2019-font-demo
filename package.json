@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "cp -r src dist"
+    "build": "cp -r src dist",
+    "postbuild": "subfont -i --inline-css dist/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "subfont": "^3.7.0"
+  }
 }
